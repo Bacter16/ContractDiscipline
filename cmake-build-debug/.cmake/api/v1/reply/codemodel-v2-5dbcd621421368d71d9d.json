@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ContractDiscipline",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ContractDiscipline::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ContractDiscipline-Debug-21d4ce8b3ea27fc11298.json",
+					"name" : "ContractDiscipline",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ContractDiscipline_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ContractDiscipline_autogen-Debug-beef884331bdb9d4c848.json",
+					"name" : "ContractDiscipline_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ContractDiscipline_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ContractDiscipline_autogen_timestamp_deps-Debug-217c205cedcd7777c10c.json",
+					"name" : "ContractDiscipline_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Bacter/CLionProjects/ContractDiscipline/cmake-build-debug",
+		"source" : "C:/Users/Bacter/CLionProjects/ContractDiscipline"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

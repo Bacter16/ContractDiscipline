@@ -1,0 +1,25 @@
+# ninja log v5
+28	238	7055177107869581	ContractDiscipline_autogen/timestamp	14639a427c8a1e27
+28	238	7055177107869581	ContractDiscipline_autogen/mocs_compilation.cpp	14639a427c8a1e27
+287	3922	7055104981177737	CMakeFiles/ContractDiscipline.dir/Service_Discipline.cpp.obj	269bffa33ef562db
+1937	2620	7054574040234244	CMakeFiles/ContractDiscipline.dir/Disciplina.cpp.obj	16b73ffd78bc297
+28	238	7055177107869581	C:/Users/Bacter/CLionProjects/ContractDiscipline/cmake-build-debug/ContractDiscipline_autogen/timestamp	14639a427c8a1e27
+28	238	7055177107869581	C:/Users/Bacter/CLionProjects/ContractDiscipline/cmake-build-debug/ContractDiscipline_autogen/mocs_compilation.cpp	14639a427c8a1e27
+267	16743	7055175934280739	CMakeFiles/ContractDiscipline.dir/main.cpp.obj	a42cf9b905ec63b2
+1945	2616	7054574040194249	CMakeFiles/ContractDiscipline.dir/Validare.cpp.obj	6085b4c78284d11d
+125	1499	7054960173060040	CMakeFiles/ContractDiscipline.dir/Repository_Disciplina.cpp.obj	f6a586f9796a95a7
+170	293	7054583731154459	CMakeFiles/ContractDiscipline.dir/ContractDiscipline_autogen/mocs_compilation.cpp.obj	aed0117ca6aff26
+247	15302	7055177258455463	CMakeFiles/ContractDiscipline.dir/GUI.cpp.obj	5885bc0249c1753b
+15303	16176	7055177264010344	ContractDiscipline.exe	4c227f79011310ee
+22	208	7055180523176609	ContractDiscipline_autogen/timestamp	14639a427c8a1e27
+22	208	7055180523176609	ContractDiscipline_autogen/mocs_compilation.cpp	14639a427c8a1e27
+22	208	7055180523176609	C:/Users/Bacter/CLionProjects/ContractDiscipline/cmake-build-debug/ContractDiscipline_autogen/timestamp	14639a427c8a1e27
+22	208	7055180523176609	C:/Users/Bacter/CLionProjects/ContractDiscipline/cmake-build-debug/ContractDiscipline_autogen/mocs_compilation.cpp	14639a427c8a1e27
+220	3260	7055180553682172	CMakeFiles/ContractDiscipline.dir/Service_Discipline.cpp.obj	269bffa33ef562db
+3261	4184	7055180559588016	ContractDiscipline.exe	4c227f79011310ee
+15	246	7055261820783681	ContractDiscipline_autogen/timestamp	14639a427c8a1e27
+15	246	7055261820783681	ContractDiscipline_autogen/mocs_compilation.cpp	14639a427c8a1e27
+15	246	7055261820783681	C:/Users/Bacter/CLionProjects/ContractDiscipline/cmake-build-debug/ContractDiscipline_autogen/timestamp	14639a427c8a1e27
+15	246	7055261820783681	C:/Users/Bacter/CLionProjects/ContractDiscipline/cmake-build-debug/ContractDiscipline_autogen/mocs_compilation.cpp	14639a427c8a1e27
+256	16271	7055261980963197	CMakeFiles/ContractDiscipline.dir/GUI.cpp.obj	5885bc0249c1753b
+16272	17277	7055261987389896	ContractDiscipline.exe	4c227f79011310ee

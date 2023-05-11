@@ -1,0 +1,5 @@
+C:/Users/Bacter/CLionProjects/ContractDiscipline/cmake-build-debug/CMakeFiles/ContractDiscipline.dir
+C:/Users/Bacter/CLionProjects/ContractDiscipline/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Bacter/CLionProjects/ContractDiscipline/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Bacter/CLionProjects/ContractDiscipline/cmake-build-debug/CMakeFiles/ContractDiscipline_autogen_timestamp_deps.dir
+C:/Users/Bacter/CLionProjects/ContractDiscipline/cmake-build-debug/CMakeFiles/ContractDiscipline_autogen.dir
