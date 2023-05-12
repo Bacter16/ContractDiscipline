@@ -279,6 +279,30 @@ void Service::undo_service() {
     delete act;
 }
 
+int Service::rapoarteCursuri() {
+    int cursuri = 0;
+    for(const auto &el: *repo->getAll())
+        if(el.getTip() == "Curs")
+            cursuri = cursuri + 1;
+    return cursuri;
+}
+
+int Service::rapoarteSeminare() {
+    int Seminari = 0;
+    for(const auto &el: *repo->getAll())
+        if(el.getTip() == "Seminar")
+            Seminari = Seminari + 1;
+    return Seminari;
+}
+
+int Service::rapoarteLaboratoare() {
+    int Laboratore = 0;
+    for(const auto &el: *repo->getAll())
+        if(el.getTip() == "Laborator")
+            Laboratore = Laboratore + 1;
+    return Laboratore;
+}
+
 UndoAdd::UndoAdd(Repository &r, const Disciplina &dis):repo{ r }, d{ dis } {}
 
 void UndoAdd::doUndo() {

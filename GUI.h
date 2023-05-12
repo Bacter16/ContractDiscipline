@@ -11,7 +11,9 @@ public:
 private:
     Service *service;
 
-    vector<Disciplina> *myList = new vector<Disciplina>;
+    QLineEdit *filter = new QLineEdit;
+
+    vector<Disciplina> *discipline = new vector<Disciplina>;
 
     QLineEdit *denumire = new QLineEdit;
     QLineEdit *tip = new QLineEdit;
@@ -28,6 +30,11 @@ private:
     QPushButton* sortButtonDenumire = new QPushButton{"Sortare Denumire"};
     QPushButton* sortButtonTip = new QPushButton{"Sortare Tip"};
     QPushButton* sortButtonOre = new QPushButton{"Sortare Nr. Ore"};
+    QPushButton* raport = new QPushButton{"Rapoarte"};
+
+    QPushButton* raportCursuri = new QPushButton{"Curs"};
+    QPushButton* raportSeminare = new QPushButton{"Seminar"};
+    QPushButton* raportLaboratoare = new QPushButton{"Laborator"};
 
     void initGUI(QWidget *widget);
 
@@ -46,4 +53,12 @@ private:
     void sortareTip();
 
     void sortareNrOre();
+
+    void windowRapoarte();
+
+    void raportCursuriGUI();
+
+    void raportSeminarGUI();
+
+    void raportLaboratorGUI();
 };

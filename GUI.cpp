@@ -7,8 +7,8 @@ GUI::GUI(Service* serv):service{serv} {
 
 void GUI::loadData() {
     lst->clear();
-    myList = service->getAllService();
-    for(const Disciplina& disciplina: *myList){
+    discipline = service->getAllService();
+    for(const Disciplina& disciplina: *discipline){
         lst->addItem(QString::fromStdString(disciplina.getDenumire()) + " " + QString::fromStdString(disciplina.getTip())
         + " " + QString::fromStdString(disciplina.getCadruDidactic()) + " " + QString::fromStdString(std::to_string(disciplina.getNrOre())));
     }
@@ -23,8 +23,12 @@ void GUI::initGUI(QWidget *widget){
 
 //    setStyleSheet("background-color:black;");
 
-    auto rightLayout = new QVBoxLayout;
+//    filter->setPlaceholderText("Cautare");
+//    filter->setFixedHeight(36);
+//    mainLayout->addWidget(filter);
+
     auto leftLayout = new QVBoxLayout;
+    auto rightLayout = new QVBoxLayout;
 
     auto formLayout = new QFormLayout;
     formLayout->addRow("Denumire", denumire);
@@ -43,6 +47,7 @@ void GUI::initGUI(QWidget *widget){
     leftLayout->addWidget(lst);
 
     auto underListButtonsLayout = new QHBoxLayout;
+    underListButtonsLayout->addWidget(raport);
     underListButtonsLayout->addWidget(sortButtonDenumire);
     underListButtonsLayout->addWidget(sortButtonTip);
     underListButtonsLayout->addWidget(sortButtonOre);
@@ -70,7 +75,7 @@ void GUI::initConnect() {
                     QMessageBox::information(this, "Nothing selected", "Nothing selected");
                     return;
                 }
-                auto element = this->myList->at(index);
+                auto element = this->discipline->at(index);
 
                 auto _denumire = this->denumire->text().toStdString();
                 auto _tip = this->tip->text().toStdString();
@@ -120,6 +125,22 @@ void GUI::initConnect() {
     QObject::connect(sortButtonTip,&QPushButton::clicked, this, &GUI::sortareTip);
 
     QObject::connect(sortButtonOre,&QPushButton::clicked, this, &GUI::sortareNrOre);
+
+    QObject::connect(raport,&QPushButton::clicked, this, &GUI::windowRapoarte);
+
+    QObject::connect(raportCursuri,&QPushButton::clicked, this, &GUI::raportCursuriGUI);
+
+    QObject::connect(raportSeminare,&QPushButton::clicked, this, &GUI::raportSeminarGUI);
+
+    QObject::connect(raportLaboratoare,&QPushButton::clicked, this, &GUI::raportLaboratorGUI);
+
+//    QObject::connect(this->filter,
+//                     &QLineEdit::textChanged,
+//                     [this](const QString &text) {
+//                         auto stringText = text.toStdString();
+//                         auto filtered = service->filtrare_discipline_service_cadru_didactic(stringText);
+//                         loadData(filtered);
+//                     });
 }
 
 void GUI::addDisciplinaGUI() {
@@ -175,3 +196,32 @@ void GUI::sortareNrOre() {
     service->discipline_sortate_dupa_nr_ore();
     loadData();
 }
+
+void GUI::windowRapoarte() {
+
+    auto *windowRaports = new QWidget;
+    windowRaports->close();
+    auto *raportsLayout = new QVBoxLayout(windowRaports);
+    raportsLayout->addWidget(raportCursuri);
+    raportsLayout->addWidget(raportSeminare);
+    raportsLayout->addWidget(raportLaboratoare);
+
+    windowRaports->show();
+
+}
+
+void GUI::raportCursuriGUI() {
+    int nrCursuri = service->rapoarteCursuri();
+    QMessageBox::information(nullptr,"Information",QString::fromStdString(std::to_string(nrCursuri)));
+}
+
+void GUI::raportSeminarGUI() {
+    int nrSeminarii = service->rapoarteSeminare();
+    QMessageBox::information(nullptr,"Information",QString::fromStdString(std::to_string(nrSeminarii)));
+}
+
+void GUI::raportLaboratorGUI() {
+    int nrLaboratoare = service->rapoarteLaboratoare();
+    QMessageBox::information(nullptr,"Information",QString::fromStdString(std::to_string(nrLaboratoare)));
+}
+

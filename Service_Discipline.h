@@ -111,6 +111,12 @@ public:
 
     void modifyDisciplina(int index, const string &new_denumire,const string &new_tip, const string &new_cadru, int new_ore);
 
+    int rapoarteCursuri();
+
+    int rapoarteSeminare();
+
+    int rapoarteLaboratoare();
+
 };
 
 class ServiceException : public std::exception{
