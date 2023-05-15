@@ -14,7 +14,7 @@ find_package(Qt6 COMPONENTS
         Widgets
         REQUIRED)
 
-add_executable(ContractDiscipline main.cpp Disciplina.cpp GUI.cpp Repository_Disciplina.cpp Service_Discipline.cpp Validare.cpp)
+add_executable(ContractDiscipline main.cpp Domain/Disciplina.cpp GUI/GUI.cpp Repos/Repository_Disciplina.cpp Services/Service_Discipline.cpp Domain/Validare.cpp GUI/RapoarteGUI.cpp GUI/RapoarteGUI.h GUI/SortareGUI.cpp GUI/SortareGUI.h GUI/FiltrareGUI.cpp GUI/FiltrareGUI.h GUI/ContractStudiuGUI.cpp GUI/ContractStudiuGUI.h Repos/Repository_Contract.h Repos/Repository_Contract.cpp Services/Service_Contract.cpp)
 target_link_libraries(ContractDiscipline
         Qt::Core
         Qt::Gui

@@ -65,45 +65,93 @@ build CMakeFiles/ContractDiscipline.dir/main.cpp.obj: CXX_COMPILER__ContractDisc
   OBJECT_DIR = CMakeFiles\ContractDiscipline.dir
   OBJECT_FILE_DIR = CMakeFiles\ContractDiscipline.dir
 
-build CMakeFiles/ContractDiscipline.dir/Disciplina.cpp.obj: CXX_COMPILER__ContractDiscipline_Debug C$:/Users/Bacter/CLionProjects/ContractDiscipline/Disciplina.cpp || cmake_object_order_depends_target_ContractDiscipline
+build CMakeFiles/ContractDiscipline.dir/Domain/Disciplina.cpp.obj: CXX_COMPILER__ContractDiscipline_Debug C$:/Users/Bacter/CLionProjects/ContractDiscipline/Domain/Disciplina.cpp || cmake_object_order_depends_target_ContractDiscipline
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  DEP_FILE = CMakeFiles\ContractDiscipline.dir\Disciplina.cpp.obj.d
+  DEP_FILE = CMakeFiles\ContractDiscipline.dir\Domain\Disciplina.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++23
   INCLUDES = -IC:/Users/Bacter/CLionProjects/ContractDiscipline/cmake-build-debug/ContractDiscipline_autogen/include -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/include/QtCore -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/include -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/mkspecs/win32-g++ -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/include/QtGui -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/include/QtWidgets
   OBJECT_DIR = CMakeFiles\ContractDiscipline.dir
-  OBJECT_FILE_DIR = CMakeFiles\ContractDiscipline.dir
+  OBJECT_FILE_DIR = CMakeFiles\ContractDiscipline.dir\Domain
 
-build CMakeFiles/ContractDiscipline.dir/GUI.cpp.obj: CXX_COMPILER__ContractDiscipline_Debug C$:/Users/Bacter/CLionProjects/ContractDiscipline/GUI.cpp || cmake_object_order_depends_target_ContractDiscipline
+build CMakeFiles/ContractDiscipline.dir/GUI/GUI.cpp.obj: CXX_COMPILER__ContractDiscipline_Debug C$:/Users/Bacter/CLionProjects/ContractDiscipline/GUI/GUI.cpp || cmake_object_order_depends_target_ContractDiscipline
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  DEP_FILE = CMakeFiles\ContractDiscipline.dir\GUI.cpp.obj.d
+  DEP_FILE = CMakeFiles\ContractDiscipline.dir\GUI\GUI.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++23
   INCLUDES = -IC:/Users/Bacter/CLionProjects/ContractDiscipline/cmake-build-debug/ContractDiscipline_autogen/include -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/include/QtCore -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/include -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/mkspecs/win32-g++ -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/include/QtGui -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/include/QtWidgets
   OBJECT_DIR = CMakeFiles\ContractDiscipline.dir
-  OBJECT_FILE_DIR = CMakeFiles\ContractDiscipline.dir
+  OBJECT_FILE_DIR = CMakeFiles\ContractDiscipline.dir\GUI
 
-build CMakeFiles/ContractDiscipline.dir/Repository_Disciplina.cpp.obj: CXX_COMPILER__ContractDiscipline_Debug C$:/Users/Bacter/CLionProjects/ContractDiscipline/Repository_Disciplina.cpp || cmake_object_order_depends_target_ContractDiscipline
+build CMakeFiles/ContractDiscipline.dir/Repos/Repository_Disciplina.cpp.obj: CXX_COMPILER__ContractDiscipline_Debug C$:/Users/Bacter/CLionProjects/ContractDiscipline/Repos/Repository_Disciplina.cpp || cmake_object_order_depends_target_ContractDiscipline
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  DEP_FILE = CMakeFiles\ContractDiscipline.dir\Repository_Disciplina.cpp.obj.d
+  DEP_FILE = CMakeFiles\ContractDiscipline.dir\Repos\Repository_Disciplina.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++23
   INCLUDES = -IC:/Users/Bacter/CLionProjects/ContractDiscipline/cmake-build-debug/ContractDiscipline_autogen/include -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/include/QtCore -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/include -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/mkspecs/win32-g++ -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/include/QtGui -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/include/QtWidgets
   OBJECT_DIR = CMakeFiles\ContractDiscipline.dir
-  OBJECT_FILE_DIR = CMakeFiles\ContractDiscipline.dir
+  OBJECT_FILE_DIR = CMakeFiles\ContractDiscipline.dir\Repos
 
-build CMakeFiles/ContractDiscipline.dir/Service_Discipline.cpp.obj: CXX_COMPILER__ContractDiscipline_Debug C$:/Users/Bacter/CLionProjects/ContractDiscipline/Service_Discipline.cpp || cmake_object_order_depends_target_ContractDiscipline
+build CMakeFiles/ContractDiscipline.dir/Services/Service_Discipline.cpp.obj: CXX_COMPILER__ContractDiscipline_Debug C$:/Users/Bacter/CLionProjects/ContractDiscipline/Services/Service_Discipline.cpp || cmake_object_order_depends_target_ContractDiscipline
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  DEP_FILE = CMakeFiles\ContractDiscipline.dir\Service_Discipline.cpp.obj.d
+  DEP_FILE = CMakeFiles\ContractDiscipline.dir\Services\Service_Discipline.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++23
   INCLUDES = -IC:/Users/Bacter/CLionProjects/ContractDiscipline/cmake-build-debug/ContractDiscipline_autogen/include -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/include/QtCore -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/include -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/mkspecs/win32-g++ -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/include/QtGui -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/include/QtWidgets
   OBJECT_DIR = CMakeFiles\ContractDiscipline.dir
-  OBJECT_FILE_DIR = CMakeFiles\ContractDiscipline.dir
+  OBJECT_FILE_DIR = CMakeFiles\ContractDiscipline.dir\Services
 
-build CMakeFiles/ContractDiscipline.dir/Validare.cpp.obj: CXX_COMPILER__ContractDiscipline_Debug C$:/Users/Bacter/CLionProjects/ContractDiscipline/Validare.cpp || cmake_object_order_depends_target_ContractDiscipline
+build CMakeFiles/ContractDiscipline.dir/Domain/Validare.cpp.obj: CXX_COMPILER__ContractDiscipline_Debug C$:/Users/Bacter/CLionProjects/ContractDiscipline/Domain/Validare.cpp || cmake_object_order_depends_target_ContractDiscipline
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  DEP_FILE = CMakeFiles\ContractDiscipline.dir\Validare.cpp.obj.d
+  DEP_FILE = CMakeFiles\ContractDiscipline.dir\Domain\Validare.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++23
   INCLUDES = -IC:/Users/Bacter/CLionProjects/ContractDiscipline/cmake-build-debug/ContractDiscipline_autogen/include -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/include/QtCore -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/include -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/mkspecs/win32-g++ -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/include/QtGui -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/include/QtWidgets
   OBJECT_DIR = CMakeFiles\ContractDiscipline.dir
-  OBJECT_FILE_DIR = CMakeFiles\ContractDiscipline.dir
+  OBJECT_FILE_DIR = CMakeFiles\ContractDiscipline.dir\Domain
+
+build CMakeFiles/ContractDiscipline.dir/GUI/RapoarteGUI.cpp.obj: CXX_COMPILER__ContractDiscipline_Debug C$:/Users/Bacter/CLionProjects/ContractDiscipline/GUI/RapoarteGUI.cpp || cmake_object_order_depends_target_ContractDiscipline
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\ContractDiscipline.dir\GUI\RapoarteGUI.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++23
+  INCLUDES = -IC:/Users/Bacter/CLionProjects/ContractDiscipline/cmake-build-debug/ContractDiscipline_autogen/include -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/include/QtCore -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/include -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/mkspecs/win32-g++ -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/include/QtGui -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/include/QtWidgets
+  OBJECT_DIR = CMakeFiles\ContractDiscipline.dir
+  OBJECT_FILE_DIR = CMakeFiles\ContractDiscipline.dir\GUI
+
+build CMakeFiles/ContractDiscipline.dir/GUI/SortareGUI.cpp.obj: CXX_COMPILER__ContractDiscipline_Debug C$:/Users/Bacter/CLionProjects/ContractDiscipline/GUI/SortareGUI.cpp || cmake_object_order_depends_target_ContractDiscipline
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\ContractDiscipline.dir\GUI\SortareGUI.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++23
+  INCLUDES = -IC:/Users/Bacter/CLionProjects/ContractDiscipline/cmake-build-debug/ContractDiscipline_autogen/include -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/include/QtCore -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/include -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/mkspecs/win32-g++ -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/include/QtGui -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/include/QtWidgets
+  OBJECT_DIR = CMakeFiles\ContractDiscipline.dir
+  OBJECT_FILE_DIR = CMakeFiles\ContractDiscipline.dir\GUI
+
+build CMakeFiles/ContractDiscipline.dir/GUI/FiltrareGUI.cpp.obj: CXX_COMPILER__ContractDiscipline_Debug C$:/Users/Bacter/CLionProjects/ContractDiscipline/GUI/FiltrareGUI.cpp || cmake_object_order_depends_target_ContractDiscipline
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\ContractDiscipline.dir\GUI\FiltrareGUI.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++23
+  INCLUDES = -IC:/Users/Bacter/CLionProjects/ContractDiscipline/cmake-build-debug/ContractDiscipline_autogen/include -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/include/QtCore -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/include -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/mkspecs/win32-g++ -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/include/QtGui -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/include/QtWidgets
+  OBJECT_DIR = CMakeFiles\ContractDiscipline.dir
+  OBJECT_FILE_DIR = CMakeFiles\ContractDiscipline.dir\GUI
+
+build CMakeFiles/ContractDiscipline.dir/GUI/ContractStudiuGUI.cpp.obj: CXX_COMPILER__ContractDiscipline_Debug C$:/Users/Bacter/CLionProjects/ContractDiscipline/GUI/ContractStudiuGUI.cpp || cmake_object_order_depends_target_ContractDiscipline
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\ContractDiscipline.dir\GUI\ContractStudiuGUI.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++23
+  INCLUDES = -IC:/Users/Bacter/CLionProjects/ContractDiscipline/cmake-build-debug/ContractDiscipline_autogen/include -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/include/QtCore -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/include -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/mkspecs/win32-g++ -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/include/QtGui -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/include/QtWidgets
+  OBJECT_DIR = CMakeFiles\ContractDiscipline.dir
+  OBJECT_FILE_DIR = CMakeFiles\ContractDiscipline.dir\GUI
+
+build CMakeFiles/ContractDiscipline.dir/Repos/Repository_Contract.cpp.obj: CXX_COMPILER__ContractDiscipline_Debug C$:/Users/Bacter/CLionProjects/ContractDiscipline/Repos/Repository_Contract.cpp || cmake_object_order_depends_target_ContractDiscipline
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\ContractDiscipline.dir\Repos\Repository_Contract.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++23
+  INCLUDES = -IC:/Users/Bacter/CLionProjects/ContractDiscipline/cmake-build-debug/ContractDiscipline_autogen/include -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/include/QtCore -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/include -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/mkspecs/win32-g++ -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/include/QtGui -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/include/QtWidgets
+  OBJECT_DIR = CMakeFiles\ContractDiscipline.dir
+  OBJECT_FILE_DIR = CMakeFiles\ContractDiscipline.dir\Repos
+
+build CMakeFiles/ContractDiscipline.dir/Services/Service_Contract.cpp.obj: CXX_COMPILER__ContractDiscipline_Debug C$:/Users/Bacter/CLionProjects/ContractDiscipline/Services/Service_Contract.cpp || cmake_object_order_depends_target_ContractDiscipline
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\ContractDiscipline.dir\Services\Service_Contract.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++23
+  INCLUDES = -IC:/Users/Bacter/CLionProjects/ContractDiscipline/cmake-build-debug/ContractDiscipline_autogen/include -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/include/QtCore -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/include -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/mkspecs/win32-g++ -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/include/QtGui -isystem C:/Users/Bacter/Qt/6.5.0/mingw_64/include/QtWidgets
+  OBJECT_DIR = CMakeFiles\ContractDiscipline.dir
+  OBJECT_FILE_DIR = CMakeFiles\ContractDiscipline.dir\Services
 
 
 # =============================================================================
@@ -113,7 +161,7 @@ build CMakeFiles/ContractDiscipline.dir/Validare.cpp.obj: CXX_COMPILER__Contract
 #############################################
 # Link the executable ContractDiscipline.exe
 
-build ContractDiscipline.exe: CXX_EXECUTABLE_LINKER__ContractDiscipline_Debug CMakeFiles/ContractDiscipline.dir/ContractDiscipline_autogen/mocs_compilation.cpp.obj CMakeFiles/ContractDiscipline.dir/main.cpp.obj CMakeFiles/ContractDiscipline.dir/Disciplina.cpp.obj CMakeFiles/ContractDiscipline.dir/GUI.cpp.obj CMakeFiles/ContractDiscipline.dir/Repository_Disciplina.cpp.obj CMakeFiles/ContractDiscipline.dir/Service_Discipline.cpp.obj CMakeFiles/ContractDiscipline.dir/Validare.cpp.obj | C$:/Users/Bacter/Qt/6.5.0/mingw_64/lib/libQt6Widgets.a C$:/Users/Bacter/Qt/6.5.0/mingw_64/lib/libQt6Gui.a C$:/Users/Bacter/Qt/6.5.0/mingw_64/lib/libQt6Core.a || ContractDiscipline_autogen ContractDiscipline_autogen_timestamp_deps
+build ContractDiscipline.exe: CXX_EXECUTABLE_LINKER__ContractDiscipline_Debug CMakeFiles/ContractDiscipline.dir/ContractDiscipline_autogen/mocs_compilation.cpp.obj CMakeFiles/ContractDiscipline.dir/main.cpp.obj CMakeFiles/ContractDiscipline.dir/Domain/Disciplina.cpp.obj CMakeFiles/ContractDiscipline.dir/GUI/GUI.cpp.obj CMakeFiles/ContractDiscipline.dir/Repos/Repository_Disciplina.cpp.obj CMakeFiles/ContractDiscipline.dir/Services/Service_Discipline.cpp.obj CMakeFiles/ContractDiscipline.dir/Domain/Validare.cpp.obj CMakeFiles/ContractDiscipline.dir/GUI/RapoarteGUI.cpp.obj CMakeFiles/ContractDiscipline.dir/GUI/SortareGUI.cpp.obj CMakeFiles/ContractDiscipline.dir/GUI/FiltrareGUI.cpp.obj CMakeFiles/ContractDiscipline.dir/GUI/ContractStudiuGUI.cpp.obj CMakeFiles/ContractDiscipline.dir/Repos/Repository_Contract.cpp.obj CMakeFiles/ContractDiscipline.dir/Services/Service_Contract.cpp.obj | C$:/Users/Bacter/Qt/6.5.0/mingw_64/lib/libQt6Widgets.a C$:/Users/Bacter/Qt/6.5.0/mingw_64/lib/libQt6Gui.a C$:/Users/Bacter/Qt/6.5.0/mingw_64/lib/libQt6Core.a || ContractDiscipline_autogen ContractDiscipline_autogen_timestamp_deps
   FLAGS = -g
   LINK_LIBRARIES = C:/Users/Bacter/Qt/6.5.0/mingw_64/lib/libQt6Widgets.a  C:/Users/Bacter/Qt/6.5.0/mingw_64/lib/libQt6Gui.a  C:/Users/Bacter/Qt/6.5.0/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -ld3d11  -ldxgi  -ldxguid  -ldcomp  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\ContractDiscipline.dir

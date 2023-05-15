@@ -220,33 +220,69 @@
 	"HEADERS" : 
 	[
 		[
-			"C:/Users/Bacter/CLionProjects/ContractDiscipline/Disciplina.h",
+			"C:/Users/Bacter/CLionProjects/ContractDiscipline/Domain/Disciplina.h",
 			"MU",
-			"EWIEGA46WW/moc_Disciplina.cpp",
+			"JE6WBJKE3F/moc_Disciplina.cpp",
 			null
 		],
 		[
-			"C:/Users/Bacter/CLionProjects/ContractDiscipline/GUI.h",
+			"C:/Users/Bacter/CLionProjects/ContractDiscipline/Domain/Validare.h",
 			"MU",
-			"EWIEGA46WW/moc_GUI.cpp",
+			"JE6WBJKE3F/moc_Validare.cpp",
 			null
 		],
 		[
-			"C:/Users/Bacter/CLionProjects/ContractDiscipline/Repository_Disciplina.h",
+			"C:/Users/Bacter/CLionProjects/ContractDiscipline/GUI/ContractStudiuGUI.h",
 			"MU",
-			"EWIEGA46WW/moc_Repository_Disciplina.cpp",
+			"2LCCYRVYXB/moc_ContractStudiuGUI.cpp",
 			null
 		],
 		[
-			"C:/Users/Bacter/CLionProjects/ContractDiscipline/Service_Discipline.h",
+			"C:/Users/Bacter/CLionProjects/ContractDiscipline/GUI/FiltrareGUI.h",
 			"MU",
-			"EWIEGA46WW/moc_Service_Discipline.cpp",
+			"2LCCYRVYXB/moc_FiltrareGUI.cpp",
 			null
 		],
 		[
-			"C:/Users/Bacter/CLionProjects/ContractDiscipline/Validare.h",
+			"C:/Users/Bacter/CLionProjects/ContractDiscipline/GUI/GUI.h",
 			"MU",
-			"EWIEGA46WW/moc_Validare.cpp",
+			"2LCCYRVYXB/moc_GUI.cpp",
+			null
+		],
+		[
+			"C:/Users/Bacter/CLionProjects/ContractDiscipline/GUI/RapoarteGUI.h",
+			"MU",
+			"2LCCYRVYXB/moc_RapoarteGUI.cpp",
+			null
+		],
+		[
+			"C:/Users/Bacter/CLionProjects/ContractDiscipline/GUI/SortareGUI.h",
+			"MU",
+			"2LCCYRVYXB/moc_SortareGUI.cpp",
+			null
+		],
+		[
+			"C:/Users/Bacter/CLionProjects/ContractDiscipline/Repos/Repository_Contract.h",
+			"MU",
+			"CK46EPGQIM/moc_Repository_Contract.cpp",
+			null
+		],
+		[
+			"C:/Users/Bacter/CLionProjects/ContractDiscipline/Repos/Repository_Disciplina.h",
+			"MU",
+			"CK46EPGQIM/moc_Repository_Disciplina.cpp",
+			null
+		],
+		[
+			"C:/Users/Bacter/CLionProjects/ContractDiscipline/Services/Service_Contract.h",
+			"MU",
+			"4VYEQU4VHD/moc_Service_Contract.cpp",
+			null
+		],
+		[
+			"C:/Users/Bacter/CLionProjects/ContractDiscipline/Services/Service_Discipline.h",
+			"MU",
+			"4VYEQU4VHD/moc_Service_Discipline.cpp",
 			null
 		]
 	],
@@ -320,27 +356,57 @@
 	"SOURCES" : 
 	[
 		[
-			"C:/Users/Bacter/CLionProjects/ContractDiscipline/Disciplina.cpp",
+			"C:/Users/Bacter/CLionProjects/ContractDiscipline/Domain/Disciplina.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/Bacter/CLionProjects/ContractDiscipline/GUI.cpp",
+			"C:/Users/Bacter/CLionProjects/ContractDiscipline/Domain/Validare.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/Bacter/CLionProjects/ContractDiscipline/Repository_Disciplina.cpp",
+			"C:/Users/Bacter/CLionProjects/ContractDiscipline/GUI/ContractStudiuGUI.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/Bacter/CLionProjects/ContractDiscipline/Service_Discipline.cpp",
+			"C:/Users/Bacter/CLionProjects/ContractDiscipline/GUI/FiltrareGUI.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/Bacter/CLionProjects/ContractDiscipline/Validare.cpp",
+			"C:/Users/Bacter/CLionProjects/ContractDiscipline/GUI/GUI.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Bacter/CLionProjects/ContractDiscipline/GUI/RapoarteGUI.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Bacter/CLionProjects/ContractDiscipline/GUI/SortareGUI.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Bacter/CLionProjects/ContractDiscipline/Repos/Repository_Contract.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Bacter/CLionProjects/ContractDiscipline/Repos/Repository_Disciplina.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Bacter/CLionProjects/ContractDiscipline/Services/Service_Contract.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Bacter/CLionProjects/ContractDiscipline/Services/Service_Discipline.cpp",
 			"MU",
 			null
 		],

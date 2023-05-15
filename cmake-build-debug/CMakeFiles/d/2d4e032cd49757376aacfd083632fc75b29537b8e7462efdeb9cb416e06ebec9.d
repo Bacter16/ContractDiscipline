@@ -36,16 +36,28 @@ ContractDiscipline_autogen/timestamp: \
   C:/Users/Bacter/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake \
   C:/Users/Bacter/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake \
   C:/Users/Bacter/CLionProjects/ContractDiscipline/CMakeLists.txt \
-  C:/Users/Bacter/CLionProjects/ContractDiscipline/Disciplina.cpp \
-  C:/Users/Bacter/CLionProjects/ContractDiscipline/Disciplina.h \
-  C:/Users/Bacter/CLionProjects/ContractDiscipline/GUI.cpp \
-  C:/Users/Bacter/CLionProjects/ContractDiscipline/GUI.h \
-  C:/Users/Bacter/CLionProjects/ContractDiscipline/Repository_Disciplina.cpp \
-  C:/Users/Bacter/CLionProjects/ContractDiscipline/Repository_Disciplina.h \
-  C:/Users/Bacter/CLionProjects/ContractDiscipline/Service_Discipline.cpp \
-  C:/Users/Bacter/CLionProjects/ContractDiscipline/Service_Discipline.h \
-  C:/Users/Bacter/CLionProjects/ContractDiscipline/Validare.cpp \
-  C:/Users/Bacter/CLionProjects/ContractDiscipline/Validare.h \
+  C:/Users/Bacter/CLionProjects/ContractDiscipline/Domain/Disciplina.cpp \
+  C:/Users/Bacter/CLionProjects/ContractDiscipline/Domain/Disciplina.h \
+  C:/Users/Bacter/CLionProjects/ContractDiscipline/Domain/Validare.cpp \
+  C:/Users/Bacter/CLionProjects/ContractDiscipline/Domain/Validare.h \
+  C:/Users/Bacter/CLionProjects/ContractDiscipline/GUI/ContractStudiuGUI.cpp \
+  C:/Users/Bacter/CLionProjects/ContractDiscipline/GUI/ContractStudiuGUI.h \
+  C:/Users/Bacter/CLionProjects/ContractDiscipline/GUI/FiltrareGUI.cpp \
+  C:/Users/Bacter/CLionProjects/ContractDiscipline/GUI/FiltrareGUI.h \
+  C:/Users/Bacter/CLionProjects/ContractDiscipline/GUI/GUI.cpp \
+  C:/Users/Bacter/CLionProjects/ContractDiscipline/GUI/GUI.h \
+  C:/Users/Bacter/CLionProjects/ContractDiscipline/GUI/RapoarteGUI.cpp \
+  C:/Users/Bacter/CLionProjects/ContractDiscipline/GUI/RapoarteGUI.h \
+  C:/Users/Bacter/CLionProjects/ContractDiscipline/GUI/SortareGUI.cpp \
+  C:/Users/Bacter/CLionProjects/ContractDiscipline/GUI/SortareGUI.h \
+  C:/Users/Bacter/CLionProjects/ContractDiscipline/Repos/Repository_Contract.cpp \
+  C:/Users/Bacter/CLionProjects/ContractDiscipline/Repos/Repository_Contract.h \
+  C:/Users/Bacter/CLionProjects/ContractDiscipline/Repos/Repository_Disciplina.cpp \
+  C:/Users/Bacter/CLionProjects/ContractDiscipline/Repos/Repository_Disciplina.h \
+  C:/Users/Bacter/CLionProjects/ContractDiscipline/Services/Service_Contract.cpp \
+  C:/Users/Bacter/CLionProjects/ContractDiscipline/Services/Service_Contract.h \
+  C:/Users/Bacter/CLionProjects/ContractDiscipline/Services/Service_Discipline.cpp \
+  C:/Users/Bacter/CLionProjects/ContractDiscipline/Services/Service_Discipline.h \
   CMakeFiles/3.25.2/CMakeCCompiler.cmake \
   CMakeFiles/3.25.2/CMakeCXXCompiler.cmake \
   CMakeFiles/3.25.2/CMakeRCCompiler.cmake \
