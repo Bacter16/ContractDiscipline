@@ -17,15 +17,8 @@ void ContractStudiuGUI::initContractGUI(QWidget *widget) {
 
     auto listsLayout = new QHBoxLayout;
     listsLayout->addWidget(lstDiscipline);
-    listsLayout->addWidget(lstContract);
+    listsLayout->addWidget(tableContract);
     mainContractLayout->addLayout(listsLayout);
-
-//    auto rawLayout = new QFormLayout;
-//    rawLayout->addRow("Denumire", denumire);
-//    rawLayout->addRow("Tip", tip);
-//    rawLayout->addRow("Cadru", cadru);
-//    rawLayout->addRow("Nr Ore", nrOre);
-//    midLayout->addLayout(rawLayout);
 
     auto buttonsLayout = new QHBoxLayout;
     buttonsLayout->addWidget(addButton);
@@ -37,7 +30,7 @@ void ContractStudiuGUI::initContractGUI(QWidget *widget) {
 
     connectContract();
     loadData(discipline, lstDiscipline);
-    loadData(serviceC->get_contract_service(), lstContract);
+    loadTableContract();
 
     widget->show();
 }
@@ -56,13 +49,6 @@ void ContractStudiuGUI::connectContract() {
     });
 
     QObject::connect(lstDiscipline, &QListWidget::itemSelectionChanged, [&]() {
-//        if (lstDiscipline->selectedItems().isEmpty()) {
-//            denumire->setText("");
-//            tip->setText("");
-//            cadru->setText("");
-//            nrOre->setText("");
-//            return;
-//        }
         QListWidgetItem* selItem = lstDiscipline->selectedItems().at(0);
         std::string sentence = selItem->text().toStdString();
         std::istringstream iss(sentence);
@@ -96,7 +82,7 @@ void ContractStudiuGUI::addDisciplinaContractGUI() {
     if(!(_denumire.empty() or _tip.empty() or _cadru.empty())){
         try{
             serviceC->add_contract_service(_denumire, _tip, _cadru, _ore);
-            loadData(serviceC->get_contract_service(), lstContract);
+            loadTableContract();
         }catch(ValidareException &exception){
             QMessageBox::warning(nullptr,"Warning",exception.what());
         }catch(ServiceContractException &exception){
@@ -112,14 +98,14 @@ void ContractStudiuGUI::addDisciplinaContractGUI() {
 
 void ContractStudiuGUI::delDisciplinaContractGUI() {
     serviceC->delete_contract_service();
-    loadData(serviceC->get_contract_service(), lstContract);
+    loadTableContract();
 }
 
 void ContractStudiuGUI::randDisciplinaContractGUI() {
     if(randomAndSaveLine->text().toInt() > 0){
         try{
             serviceC->random_generator(randomAndSaveLine->text().toInt(), discipline);
-            loadData(serviceC->get_contract_service(), lstContract);
+            loadTableContract();
         }catch (ServiceContractException &exception){
             QMessageBox::warning(nullptr,"warning",exception.what());
         }
@@ -134,3 +120,21 @@ void ContractStudiuGUI::saveDisciplinaContractGUI() {
     else
         QMessageBox::warning(nullptr,"warning","Field empty!");
 }
+
+void ContractStudiuGUI::loadTableContract() {
+    tableContract->clear();
+    tableContract->setMinimumSize(404,100);
+    tableContract->setColumnCount(4);
+    tableContract->setRowCount(static_cast<int>(serviceC->get_contract_service()->size()));
+    tableContract->verticalHeader()->setVisible(false);
+    tableContract->horizontalHeader()->setVisible(false);
+    int i = 0;
+    for(const auto& el:*serviceC->get_contract_service()){
+        tableContract->setItem(i, 0, new QTableWidgetItem(QString::fromStdString(el.getDenumire())));
+        tableContract->setItem(i, 1, new QTableWidgetItem(QString::fromStdString(el.getTip())));
+        tableContract->setItem(i, 2, new QTableWidgetItem(QString::fromStdString(el.getCadruDidactic())));
+        tableContract->setItem(i, 3, new QTableWidgetItem(QString::fromStdString(std::to_string(el.getNrOre()))));
+        i++;
+    }
+}
+

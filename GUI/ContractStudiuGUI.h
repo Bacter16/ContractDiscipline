@@ -9,6 +9,8 @@
 #include <QFormLayout>
 #include <QHBoxLayout>
 #include <QMessageBox>
+#include <QTableWidget>
+#include <QHeaderView>
 
 class GUI;
 
@@ -18,8 +20,8 @@ private:
     Service_Contract *serviceC;
     std::vector<Disciplina> *discipline;
 
+    QTableWidget *tableContract = new QTableWidget;
     QListWidget *lstDiscipline = new QListWidget;
-    QListWidget *lstContract = new QListWidget;
 
     QPushButton *addButton = new QPushButton("Adauga");
     QPushButton *delButton = new QPushButton("Sterge contract");
@@ -50,6 +52,8 @@ public:
     void randDisciplinaContractGUI();
 
     void saveDisciplinaContractGUI();
+
+    void loadTableContract();
 };
 
 

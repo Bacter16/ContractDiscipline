@@ -175,7 +175,6 @@ int GUI::selectedIndex() {
 
 void GUI::windowSort(){
     delete sortare;
-//    this->setEnabled(false);
     sortare = new SortareGUI(service, lst);
 }
 

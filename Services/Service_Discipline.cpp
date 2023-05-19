@@ -318,8 +318,8 @@ void UndoDelete::doUndo() {
 UndoModify::UndoModify(Repository &r, const Disciplina &d1,  const Disciplina &d2):repo{r},d1{d1},d2{d2}{}
 
 void UndoModify::doUndo() {
-    repo.remove(d1);
-    repo.add(d2);
+    repo.remove(d2);
+    repo.add(d1);
 }
 
 UndoRandom::UndoRandom(Repository &r, const vector<Disciplina> &d): repo{r},discipline{d}{}
